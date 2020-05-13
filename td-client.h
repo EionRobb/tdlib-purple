@@ -94,6 +94,7 @@ private:
     TdAccountData         m_data;
     int32_t               m_lastAuthState = 0;
     TdAuthCodePtr         m_authCodeInfo;
+    bool                  m_connectionReady = false;
     std::vector<int32_t>  m_usersForNewPrivateChats;
 };
 
